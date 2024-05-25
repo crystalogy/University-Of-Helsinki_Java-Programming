@@ -14,6 +14,12 @@ public class Money {
         this.euros = euros;
         this.cents = cents;
     }
+    
+    public Money plus(Money addition){
+        Money newMoney = new Money(this.euros, this.cents);
+        
+        return newMoney;
+    }
 
     public int euros() {
         return this.euros;
