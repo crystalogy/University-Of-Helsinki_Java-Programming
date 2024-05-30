@@ -24,7 +24,6 @@ public class Person {
         return this.name + " (" + this.height + " cm)";
     }
 
-    // Created with the insert code functionality of NetBeans
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {
